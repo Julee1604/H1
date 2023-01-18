@@ -66,6 +66,12 @@
               <li class="nav-item">
                     <a class="nav-link" href="Lebenslauf.php">Kontakt</a>
                   </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="anmeldung.php">Geschützer Bereich</a>
+              </li>
+
+
             </ul>
           </div>
         </div>

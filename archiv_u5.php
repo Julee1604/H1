@@ -20,7 +20,8 @@
     </head>
     <body>
         <!--menü-->
-      <header class="header">
+            <!--Navbar-->
+            <header class="header">
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
           <a
@@ -67,6 +68,10 @@
               <li class="nav-item">
                     <a class="nav-link" href="Lebenslauf.php">Kontakt</a>
                   </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="anmeldung.php">Geschützer Bereich</a>
+              </li>
 
 
             </ul>
@@ -150,7 +155,7 @@
                   <a href="index.php" class="nav-link px-2 text-white">Home</a>
               </li>
               <li class="nav-item">
-                  <a href="Lebenslauf.php" class="nav-link px-2 text-white">Kontakt</a>
+                  <a href="impressum.php" class="nav-link px-2 text-white">Kontakt</a>
               </li>
               <li class="nav-item">
                   <a href="impressum.php" class="nav-link px-2 text-white">Impressum</a>

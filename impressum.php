@@ -19,57 +19,65 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <header class="header">
-          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
-              <a
-                class="navbar-brand .align-top .align-middle .align-bottom" href="index.php"
-                ><img class="logo" src="img/Logo/logo-main - Kopie.png"
-              /></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="dienstleistungen.php"
-                      >Dienstleistung</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="laborausstattung.php"
-                      >Laboraustattung</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="aktuelles.php"
-                      >Aktuelles und Veranstaltungen</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="archiv.php">Archiv/Galerie</a>
-                  </li>
-		 <li class="nav-item">
+              <!--Navbar-->
+      <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a
+            class="navbar-brand .align-top .align-middle .align-bottom"
+            href="index.php"
+            ><img class="logo" src="img/Logo/logo-main - Kopie.png"
+          /></a>
+          <!--Hamburger menü-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dienstleistungen.php"
+                  >Dienstleistung</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="laborausstattung.php"
+                  >Laborausstattung</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aktuelles.php"
+                  >Aktuelles und Veranstaltungen</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="archiv.php">Archiv/Galerie</a>
+              </li>
+
+              <li class="nav-item">
                     <a class="nav-link" href="Lebenslauf.php">Kontakt</a>
                   </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="anmeldung.php">Geschützer Bereich</a>
+              </li>
 
 
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
         
         <main><div class="container" style="margin-bottom: 4rem;">
         <div class="impressum" style="margin-top: 140px;">
