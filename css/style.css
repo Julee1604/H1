@@ -1,0 +1,240 @@
+.logo {
+  width: auto;
+  height: 4rem;
+}
+.navbar {
+  background-color: #00283f;
+}
+.dropdown {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.footer-container {
+  background-color: #00283f;
+
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+/*fronts*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+li {
+  font-family: "Quicksand", sans-serif;
+}
+
+#intro {
+  width: 100%;
+  height: calc(100vh - 110px);
+  background: url("../img/header.png") top center;
+  background-size: cover;
+  position: relative;
+}
+#intro:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#intro h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+#intro h2 {
+  color: #eee;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+#intro .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 10px 28px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#intro .btn-get-started:hover {
+  background: #2992a8;
+  border-color: #2992a8;
+}
+@media (min-width: 1024px) {
+  #intro {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #intro {
+    text-align: center;
+  }
+  #intro .container {
+    padding-top: 40px;
+  }
+  #intro h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #intro h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/*
+# Featured Services
+*/
+.dienstleistungen .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+
+  border-radius: 8px;
+  z-index: 1;
+}
+.dienstleistungen .icon-box::before {
+  content: "";
+  position: absolute;
+  background: #cbe0fb;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+
+  transition: all 0.3s;
+  z-index: -1;
+}
+.dienstleistungen .icon-box:hover::before {
+  background: #2992a8;
+  top: 0;
+  border-radius: 0px;
+}
+.dienstleistungen .icon {
+  margin-bottom: 15px;
+}
+
+.dienstleistungen .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.dienstleistungen .title a {
+  color: #111;
+}
+.dienstleistungen .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.dienstleistungen .icon-box:hover .title a,
+.dienstleistungen .icon-box:hover .description {
+  color: #fff;
+}
+
+/*Clients*/
+
+#kunden {
+  padding: 60px 0;
+}
+
+#kunden .kunden-wrap {
+  border-top: 1px solid #d6eaff;
+  border-left: 1px solid #d6eaff;
+  margin-bottom: 30px;
+}
+
+#kunden .kunde-logo {
+  padding: 64px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  border-right: 1px solid #d6eaff;
+  border-bottom: 1px solid #d6eaff;
+  overflow: hidden;
+  background: #fff;
+  height: 160px;
+}
+
+.form_login {
+  width: 40%;
+  border: 2px solid #ccc;
+padding: 30px;
+background: #00283f;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.form_login button {
+  background: #555;
+  font-size: 1.2rem;
+padding: 15px 65px;
+color: #fff;
+border-radius: 5px;
+display: block;
+  border: 2px solid #555;
+  margin: 10px auto;
+}
+.form_login button:hover{
+  opacity: .7;
+  border: 2px solid #ccc;
+
+}
+.form_login label {
+color: white;
+font-size: 18px;
+padding: 10px;
+}
+
+.form_login input {
+display: block;
+border: 2px solid #ccc;
+width: 95%;
+padding: 10px;
+margin: 10px auto;
+border-radius: 5px;
+}
+
+.form_login h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-bottom: 40px;
+  font-weight: normal;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.error {
+  background: #F2DEDE;
+  color: #A94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
