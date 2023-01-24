@@ -10,7 +10,7 @@
   margin-bottom: 0.5rem;
 }
 
-section {
+    section {
   padding: 60px 0;
   overflow: hidden;
 }
@@ -181,60 +181,4 @@ li {
   overflow: hidden;
   background: #fff;
   height: 160px;
-}
-
-.form_login {
-  width: 40%;
-  border: 2px solid #ccc;
-padding: 30px;
-background: #00283f;
-  border-radius: 15px;
-  margin: 0 auto;
-}
-.form_login button {
-  background: #555;
-  font-size: 1.2rem;
-padding: 15px 65px;
-color: #fff;
-border-radius: 5px;
-display: block;
-  border: 2px solid #555;
-  margin: 10px auto;
-}
-.form_login button:hover{
-  opacity: .7;
-  border: 2px solid #ccc;
-
-}
-.form_login label {
-color: white;
-font-size: 18px;
-padding: 10px;
-}
-
-.form_login input {
-display: block;
-border: 2px solid #ccc;
-width: 95%;
-padding: 10px;
-margin: 10px auto;
-border-radius: 5px;
-}
-
-.form_login h2 {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  margin-bottom: 40px;
-  font-weight: normal;
-  font-size: 1.3em;
-  text-align: center;
-}
-
-.error {
-  background: #F2DEDE;
-  color: #A94442;
-  padding: 10px;
-  width: 95%;
-  border-radius: 5px;
-  margin: 20px auto;
 }
